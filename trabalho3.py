@@ -18,11 +18,20 @@ card_livros_vanguarda = tamplate_vanguarda.find_all(
     "div", attrs={"slick-track"})
 
 # funçoes
-def titulo(txt):
+def titulo(txt , traco="-"):
+    print()
+    print(txt)
+    print(traco*len(txt))
     pass
 
-
 def ofertas():
+    titulo("busca ofertas - melhor valor ")
+    nome_livro = input("Qual livro deseja ver o melhor preço? ");
+    url_vanguarda = f"https://www.livrariavanguarda.com.br/busca/" +nome_livro
+    url_saraiva = f"https://www.saraiva.com.br/{nome_livro}?"
+
+    armazena_valore =[]
+
     pass
 
 
@@ -55,7 +64,7 @@ while True:
 
     match opcao:
         case 1:
-            pass
+            ofertas()
         case 2:
             pass
         case 3:

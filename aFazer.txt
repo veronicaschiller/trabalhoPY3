@@ -1,0 +1,10 @@
+Fazer um Web Scraping de 2 sites de empresas de um mesmo segmento.
+- Obter uma lista de itens que estão em promoção, destaque ou que são exibidos a partir de uma pesquisa.
+- Exibir no programa um menu com, no mínimo, 6 opções de manipulação das estruturas de dados obtidas,
+contendo, por exemplo:
+- Exibir a lista dos itens obtidos de cada página
+- Listagem dos itens de forma ordenada
+- Execução de operações de agrupamento (dicionário)
+- Comparações entre os itens das 2 empresas (união, intersecção e/ou diferença de conjuntos)
+- Totalização dos itens e valores (ou médias, contagens)
+- Rotinas de pesquisa de dados
